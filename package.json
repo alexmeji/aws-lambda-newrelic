@@ -1,0 +1,32 @@
+{
+  "name": "aws-lambda-newrelic",
+  "version": "1.0.0",
+  "description": "AWS Lambda integration with New Relic sending Custom Events",
+  "main": "index.js",
+  "scripts": {
+    "start-local": "NEWRELIC_KEY=Zbl38_PkvcSuMoYtsSgHj5P7F38iED7h NEWRELIC_ACCOUNT=713892 node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmeji/aws-lambda-newrelic.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "aws-lambda",
+    "newrelic",
+    "new-relic",
+    "serverless"
+  ],
+  "author": {
+    "name": "Alex Mejicanos",
+    "email": "alexmejicanos@outlook.com",
+    "website": "https://alexmejicanos.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmeji/aws-lambda-newrelic/issues"
+  },
+  "homepage": "https://github.com/alexmeji/aws-lambda-newrelic#readme"
+}
