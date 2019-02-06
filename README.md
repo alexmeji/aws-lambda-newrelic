@@ -23,7 +23,7 @@ Additional, this newrelic integration need to use two environment variables:
   exports.handler = (event, context, callback) => {
     // method needs at least 3 parameters
     // eventName, data, callback
-    lambdaNewRelic.insertCustomEvent('Test Event', {"name": "Alex Mejicanos"}, (error, data) => {});
+    lambdaNewRelic.insertCustomEvent('TestEvent', {"name": "Alex Mejicanos"}, (error, data) => {});
     
     callback(null, 'Its Ok');
   };

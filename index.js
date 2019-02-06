@@ -22,10 +22,7 @@ const insertCustomEvent = (eventName, data, callback) => {
 
     request.write(JSON.stringify(
         [
-            {
-                'eventType': eventName,
-                ...data,
-            },
+            Object.assign({ 'eventType': eventName }, data),
         ]
     ));
     request.end();
