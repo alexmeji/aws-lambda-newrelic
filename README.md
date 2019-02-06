@@ -5,11 +5,15 @@ When you create your a AWS Lambda and you need to send customEvents to Insights,
 `npm install --save aws-lambda-newrelic`
 
 ## How to Use
-This packet have a function called **insertCustomEvent**, this function receive 3 parameters
-
+This packet have a function called **insertCustomEvent**, this function receive 3 parameters:
 * **eventName**: a string to define the name to the Custom Event.
 * **data**: JSON object structure.
 * **callback**: a callback function to receive (error, data).
+
+
+Additional, this newrelic integration need to use two environment variables:
+* **NEWRELIC_KEY**: NewRelic Insert Key
+* **NEWRELIC_ACCOUNT**: NewRelic Account to insert
 
 ## Example
 

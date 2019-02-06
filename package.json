@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-newrelic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS Lambda integration with New Relic sending Custom Events",
   "main": "index.js",
   "scripts": {
